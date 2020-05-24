@@ -16,4 +16,4 @@ def mass(f, obj):
 	
 	print(round(mg[obj], 3))
 
-mass(int(input("Введите вес на Земле:")), input("Введите название объекта на английском:").lower())
+mass(float(input("Введите вес на Земле:")), input("Введите название объекта на английском:").lower())
