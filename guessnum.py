@@ -1,7 +1,8 @@
+#Выбирается случайное число от 0 до 100. Пользователь угадывает
 import random
 
 i = random.randint(0, 100)
-print ("Угадайте число":)
+print ("Угадайте число:")
 inp = int(input())
 while inp != i:
 	if inp < i:
