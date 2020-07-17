@@ -1,6 +1,6 @@
 import random
 
-words = ['snake', 'tardis', 'dalek', 'gun']
+words = ['snake', 'tardis', 'dalek', 'gun', 'lalaland']
 n = len(words)
 word = list(words[random.randint(0, n-1)])
 #print(word)
